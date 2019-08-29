@@ -1,0 +1,134 @@
+/*!--------------------------------------------------------------
+	2.0 Typography
+--------------------------------------------------------------*/
+p {
+  font-size: 1.6rem;
+  margin-bottom: 1.25em;
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: $heading-font-family;
+  font-weight: 400;
+  line-height: 1.15;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: .5rem 0;
+}
+
+p.lead {
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 4.883rem;
+}
+
+h2 {
+  font-size: 3.906rem;
+}
+
+h3 {
+  font-size: 3.125rem;
+}
+
+h4 {
+  font-size: 2.5rem;
+}
+
+h5 {
+  font-size: 2rem;
+}
+
+h6 {
+  font-size: 1.6rem;
+}
+
+small, .text_small {
+  font-size: 0.8em;
+}
+
+/*** Responsive Styles Tablets Only ***/
+@media all and (min-width: map-get($breakpoints, 'breakpoint_tablet-s')) and (max-width: map-get($breakpoints, 'breakpoint_tablet-l')) {
+  h1 {
+    font-size: 3.981rem;
+  }
+  h2 {
+    font-size: 3.318rem;
+  }
+  h3 {
+    font-size: 2.765rem;
+  }
+  h4 {
+    font-size: 2.304rem;
+  }
+  h5 {
+    font-size: 1.920rem;
+  }
+  h6 {
+    font-size: 1.6rem;
+  }
+}
+
+/*** Responsive Styles Small Tablet and Mobile Only ***/
+@media all and (min-width: map-get($breakpoints, 'breakpoint_mobile')) and (max-width: map-get($breakpoints, 'breakpoint_tablet-s')) {
+  h1 {
+    font-size: 2.883rem;
+  }
+  h2 {
+    font-size: 2.563rem;
+  }
+  h3 {
+    font-size: 2.278rem;
+  }
+  h4 {
+    font-size: 2.025rem;
+  }
+  h5 {
+    font-size: 1.8rem;
+  }
+  h6 {
+    font-size: 1.6rem;
+  }
+}
+
+/*** Responsive Styles Mobile Only ***/
+@media all and (max-width: map-get($breakpoints, 'breakpoint_mobile')) {
+  h1 {
+    font-size: 2.213rem;
+  }
+  h2 {
+    font-size: 2.074rem;
+  }
+  h3 {
+    font-size: 1.944rem;
+  }
+  h4 {
+    font-size: 1.822rem;
+  }
+  h5 {
+    font-size: 1.707rem;
+  }
+  h6 {
+    font-size: 1.6rem;
+  }
+}
+
+
+
+h2[id*="faq-"] a, article[id*="post-"] h2 a {
+  color: #4d4d4d;
+}
+
+b, strong {
+  font-weight: bold;
+}
+
+dfn {
+  font-style: italic;
+}
+
+small {
+  font-size: 75%;
+}
